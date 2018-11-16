@@ -20,6 +20,8 @@ body {
 .container-flex2 {
     display: flex;
     justify-content: space-between;
+    /* font-family: 'Nunito',
+        sans-serif; */
 }
 
 .container-flex div {
@@ -54,8 +56,11 @@ body {
     width: 50px
 }
 
+.header {}
+
 .con-flex {
-    flex-basis: 30%;
+    /* flex-basis: 30%; */
+
 }
 
 .box3 {
@@ -63,11 +68,12 @@ body {
 }
 
 .box4 {
-    flex: 3;
+    flex: 4;
+    margin-left: -115px;
 }
 
 .box5 {
-    flex: 1;
+    flex: 2;
 }
 
 

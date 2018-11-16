@@ -1,0 +1,151 @@
+.parent-div {
+  position: relative;
+  text-align: center;
+}
+
+.parent-div-img {
+  width: 100%;
+  filter: blur(10px);
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  font-size: 3em;
+  cursor: default;
+}
+
+.sub-heading1 {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-size: 2em;
+  font-weight: 300 !important;
+  cursor: default;
+
+}
+
+.sub-heading2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-size: 8em;
+  font-weight: 200 !important;
+  letter-spacing: 0.25em;
+  cursor: default;
+}
+
+.intro {
+  height: 25em;
+  width: 100%;
+  background-color: #f1f1f1;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  color: #373738;
+  overflow: hidden;
+}
+
+.intro-heading {
+
+  /* padding: 5em 0 0 0; */
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 8%;
+}
+
+.intro-desc {
+  margin-left: 25%;
+  margin-right: 25%;
+
+  /* width: 70%; */
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper-div {
+  width: 100%;
+  clear: both;
+}
+
+.text {
+  color: white;
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+
+}
+
+#first {
+  width: 25%;
+  float: left;
+}
+
+#second {
+  width: 25%;
+  float: left;
+}
+
+#third {
+  width: 25%;
+  float: left;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  /* background-color: #008cba; */
+}
+
+.movies {
+  background-color: #ab47bc;
+}
+
+.venture {
+  background-color: #43a047;
+}
+
+.avatar {
+  background-color: #008cba;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}

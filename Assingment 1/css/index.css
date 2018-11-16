@@ -1,0 +1,31 @@
+.div1 {
+    height: 572px;
+    width: 600px;
+    background-color: bisque;
+    padding: 22px 30px 10px 30px
+}
+
+.div2 img {
+    width: 600px;
+    height: 300px;
+}
+
+.div2 p {
+    text-align: center;
+}
+
+.div3 {
+    width: 500px;
+    margin-left: 49px;
+
+}
+
+.div3 h3 {
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 80px;
+}
+
+.div3 p {
+    text-align: justify;
+}

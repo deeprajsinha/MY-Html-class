@@ -1,0 +1,128 @@
+.parent-div {
+  width: 100%;
+  position: relative;
+}
+
+.image1 {
+  width: 100%;
+  height: 666px;
+  filter: blur(7px);
+}
+
+.image-header-text {}
+
+.centered {
+  position: absolute;
+  top: 2em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito', sans-serif;
+  color: rgb(109, 102, 102);
+  font-weight: 200em !important;
+  letter-spacing: 0.25em;
+  font-size: 4em;
+}
+
+.centered1 {
+  position: absolute;
+  top: 8em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito', sans-serif;
+  color: rgb(224, 217, 217);
+  font-weight: 200em !important;
+  font-size: 2em;
+}
+
+.centered2 {
+  position: absolute;
+  top: 10em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito', sans-serif;
+  color: rgb(224, 217, 217);
+  font-weight: 200em !important;
+  font-size: 2em;
+}
+
+.intro {
+  width: 100%;
+  height: 25em;
+  background-color: rgb(231, 235, 235);
+  overflow: hidden;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  font-family: 'Nunito', sans-serif;
+  color: rgb(12, 11, 11);
+
+}
+
+.intro-heading {
+  margin-top: 3.5em;
+  font-weight: 200em !important;
+  font-size: 2em;
+  text-align: center;
+}
+
+.intro-desc {
+  margin-top: 1em;
+  font-weight: 300 !important;
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%
+}
+
+.wrap {
+  width: 100%;
+
+}
+
+#first {
+  width: 33.3%;
+  float: left;
+}
+
+#second {
+  width: 33.36%;
+  float: left;
+}
+
+#third {
+  width: 33.33%;
+  float: left;
+}
+
+.image2,
+.image3 {
+  height: 500px;
+  width: 500px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 250px;
+  /* bottom: 0;
+  right: 0; */
+  left: 250px;
+  /* height: 100%;
+  width: 100%; */
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.img {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%)
+}
